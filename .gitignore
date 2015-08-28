@@ -1,2 +1,4 @@
 app/public/packed
 app/public/sass/.sass-cache
+public/packed/
+public/sass/.sass-cache
