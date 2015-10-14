@@ -1,1 +1,2 @@
 *.pod linguist-language=Perl6
+* linguist-documentation=false
