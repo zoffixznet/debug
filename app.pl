@@ -3,7 +3,7 @@ use Mojolicious::Lite;
 
 plugin "AssetPack";
 
-app->asset( 'app.css' => '/sass/x/y/z/main.scss' );
+app->asset( 'app.css' => 'sprites:///sprite' );
 
 get "/" => "index";
 app->start;
@@ -14,3 +14,7 @@ __DATA__
 
 %= asset "app.css"
 
+<p>
+    <i class="sprite WebService_GitHub"></i>
+    <i class="sprite panda"></i>
+</p>
