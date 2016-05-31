@@ -17,7 +17,7 @@ This work will fix these bugs:
 
 * It will now be possible to use `rel-tol` or `abs-tol` separately
 * The naming of `rel-tol` and `abs-tol` now uses kebob-case, for consistency
-with other methods and named args in Perl 6
+with other methods and named args in Perl&nbsp;6
 * On failures, the errors will be more descriptive and include tolerances
 
 ## Non-backwards compatible changes
