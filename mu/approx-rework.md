@@ -30,8 +30,8 @@ and documented behaviour.
 
 The changes are:
 
-* `rel-tol` named parameter will not have a default, to allow for standalone use of `abs-tol`
-* `abs-tol` named parameter will not have a default, to allow for standalone use of `rel-tol`. **The old default is invalid anyway and is rejected by the subroutine.**
+* `:rel-tol` named parameter will not have a default, to allow for standalone use of `:abs-tol`
+* `:abs-tol` named parameter will not have a default, to allow for standalone use of `:rel-tol`. **The old default is invalid anyway and is rejected by the subroutine.**
 * positional tolerance argument will **always** be taken as absolute tolerance and will default to `1-e5`. This is contrary to current implementation that takes it as relative tolerance set to `1-e6`. Justification for this change:
     * Older implementation used absolute `1-e5` for tiny values and relative `1-e6` for large values (buggy conditional??)
     * The [speculation](https://design.perl6.org/S24.html#is-approx%28%29) declares the tolerance to be absolute with value of `1-e5`
