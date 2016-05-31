@@ -50,7 +50,6 @@ warning was generated nor was it removed from code.
 
 * `rel_tol` and `abs_tol` are now named `rel-tol` and `abs-tol` to maintain naming convention for method/sub/params with the rest of the codebase
 * `rel-tol` and `abs-tol` can be used independently of another (use of both at the same time is still valid)
-* `rel-f`
 
 ## Description of behaviour
 
@@ -63,7 +62,7 @@ The differences from it are described in the preceeding sections.
 The subroutine can be called in numerous ways.
 `$rel-tol` is relative tolerance and `$abs-tol` is absolute tolerance:
 
-    my Numeric ($got, $expected, $rel-tol, $abs-tol) = ...
+    my Numeric ($got, $expected, $abs-tol, $rel-tol) = ...
 
     is-approx $got, $expected;
     is-approx $got, $expected, 'test description';
