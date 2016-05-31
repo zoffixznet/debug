@@ -87,7 +87,7 @@ of `1e-5`
 ### Absolute tolerance specified
 
 When absolute tolerance is set, it's used as the actual maximum value by
-which the `$got` and `$expected` differ. For example:
+which the `$got` and `$expected` can differ. For example:
 
     is-approx 3, 4, 2; # success
     is-approx 3, 6, 2; # success
