@@ -90,7 +90,7 @@ When absolute tolerance is set, it's used as the actual maximum value by
 which the `$got` and `$expected` can differ. For example:
 
     is-approx 3, 4, 2; # success
-    is-approx 3, 6, 2; # success
+    is-approx 3, 6, 2; # fail
 
     is-approx 300, 302, 2; # success
     is-approx 300, 400, 2; # fail
