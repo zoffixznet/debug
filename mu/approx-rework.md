@@ -102,8 +102,8 @@ than `2`
 ### Relative tolerance specified
 
 When relative tolerance is set, the test checks relative difference between
-values, regardless of their magnitude. The larger the numbers given, the larger
-the number they can differ by can be.
+values. Given the same tolerance, the larger the numbers given, the larger the
+number they can differ by can be.
 
 For example:
 
