@@ -36,8 +36,8 @@ The changes are:
     * Older implementation used absolute `1-e5` for tiny values and relative `1-e6` for large values (buggy conditional??)
     * The [speculation](https://design.perl6.org/S24.html#is-approx%28%29) declares the tolerance to be absolute with value of `1-e5`
     * The [documentation](http://docs.perl6.org/language/testing#By_approximate_numeric_comparison) declares the tolerance to be absolute with value of `1-e5`
-* The old version uses a different algorithm for relative tolerance calculation in named-arg version vs. positional arg version—possibly giving different results as well. In new version, only the named arg version
-allow for relative tolerance calculation, ridding the code of this issue.
+* The old version uses a different algorithm for relative tolerance calculation in named-arg version vs. positional arg version—possibly giving different results as well. In the new version, only the named arg version
+allows for relative tolerance calculation, ridding the code of this issue.
 
 ## Deprecations
 
