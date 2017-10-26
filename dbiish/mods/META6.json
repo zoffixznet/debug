@@ -1,0 +1,18 @@
+{
+    "perl"         : "6.c",
+    "name"         : "Foo",
+    "license"      : "Artistic-2.0",
+    "version"      : "1.004004",
+    "description"  : "No-nonsense, simple HTTPS client with JSON decoder",
+    "tags"         : [ "HTTP" ],
+    "depends"      : [
+    ],
+    "test-depends" : [
+    ],
+    "provides"     : {
+        "Foo" : "Foo.pm6",
+        "Meow" : "Meow.pm6"
+    },
+    "authors"       : ["Zoffix Znet"],
+    "support"       : {"source"   : "git://github.com/zoffixznet/perl6-WWW.git"}
+}
