@@ -1,2 +1,3 @@
-use lib <. mods>; 
-use Bar;
+use lib <.>;
+use Bez;
+say 5

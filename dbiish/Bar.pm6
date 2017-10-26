@@ -1,2 +1,4 @@
 use Foo;
-Foo.c: 'Meow';
+Foo.c: 'Meow',
+  :foo
+;
